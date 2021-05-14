@@ -1,0 +1,42 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  input {
+    padding: 0.25rem;
+    border-radius: 10px;
+    border: 1px solid #f4f4f4;
+    outline: none;
+  }
+  textarea {
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 1px solid #f4f4f4;
+    outline: none;
+    font-family: sans-serif;
+  }
+  &__btns {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    align-items: center;
+  }
+  &__submit {
+    padding: 0.5rem 1rem;
+    border-radius: 100px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    font-size: 1.25rem;
+  }
+  &__clear {
+    cursor: pointer;
+    text-decoration: underline;
+    font-size: 1.25rem;
+  }
+}
+.max-length {
+  text-align: right;
+  color: #727272;
+}
